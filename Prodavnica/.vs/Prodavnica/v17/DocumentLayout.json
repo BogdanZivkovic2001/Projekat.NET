@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\GitHub\\Projekat.NET\\Prodavnica\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|d:\\github\\projekat.net\\prodavnica\\prodavnica\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|solutionrelative:prodavnica\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|d:\\github\\projekat.net\\prodavnica\\prodavnica\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|solutionrelative:prodavnica\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|d:\\github\\projekat.net\\prodavnica\\prodavnica\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|solutionrelative:prodavnica\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|d:\\github\\projekat.net\\prodavnica\\prodavnica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|solutionrelative:prodavnica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|d:\\github\\projekat.net\\prodavnica\\prodavnica\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|solutionrelative:prodavnica\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,7 +38,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Prodavnica\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Prodavnica\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T21:14:42.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Prodavnica\\Views\\Products\\Index.cshtml",
+              "ToolTip": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Prodavnica\\Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T20:56:09.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Prodavnica\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Prodavnica\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T20:54:39.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Services\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Prodavnica\\Services\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Services\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Prodavnica\\Services\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T20:29:38.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Prodavnica\\Models\\Product.cs",

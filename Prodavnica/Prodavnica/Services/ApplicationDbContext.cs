@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Prodavnica.Models;
 
 namespace Prodavnica.Services
 {
@@ -8,5 +9,7 @@ namespace Prodavnica.Services
         {
             
         }
+
+        public DbSet<Product> Products { get; set; }
     }
 }

@@ -16,5 +16,11 @@ namespace Prodavnica.Controllers
             var products = context.Products.OrderByDescending(p => p.Id).ToList();
             return View(products);
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
     }
 }

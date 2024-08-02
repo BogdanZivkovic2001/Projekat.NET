@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eDOIDn2Dlfqf7r5fXC8V9rXzZyrXq+SXzeoWDzHUwlw=",
+  "Hash": "w5w6oYGmm8CV1o+s7okSbxMdL6tZk3zeF4Se42ZN8zM=",
   "Source": "Prodavnica",
   "BasePath": "_content/Prodavnica",
   "Mode": "Default",
@@ -1402,6 +1402,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\products\\20240802001202205.jpg"
+    },
+    {
+      "Identity": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\wwwroot\\products\\20240802100650229.jpg",
+      "SourceId": "Prodavnica",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\wwwroot\\",
+      "BasePath": "_content/Prodavnica",
+      "RelativePath": "products/20240802100650229.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\products\\20240802100650229.jpg"
     },
     {
       "Identity": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\wwwroot\\products\\22866337.jpg",

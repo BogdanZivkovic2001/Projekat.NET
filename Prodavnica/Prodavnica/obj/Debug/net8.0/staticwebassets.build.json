@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bOWTgCaK8hR+SIFr3x8uMPLvLmYdOjeeJNed/rqbeHo=",
+  "Hash": "XL66h+1RnFHwSWOPsYrWmaovasa84/z+QB9+8lpXksc=",
   "Source": "Prodavnica",
   "BasePath": "_content/Prodavnica",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\wwwroot\\images\\hero.png",
+      "SourceId": "Prodavnica",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\wwwroot\\",
+      "BasePath": "_content/Prodavnica",
+      "RelativePath": "images/hero.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hero.png"
     },
     {
       "Identity": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\wwwroot\\images\\icon.png",

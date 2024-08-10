@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\GitHub\\Projekat.NET\\Prodavnica\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|d:\\github\\projekat.net\\prodavnica\\prodavnica\\views\\store\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|solutionrelative:prodavnica\\views\\store\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|d:\\github\\projekat.net\\prodavnica\\prodavnica\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|solutionrelative:prodavnica\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|d:\\github\\projekat.net\\prodavnica\\prodavnica\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|solutionrelative:prodavnica\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|d:\\github\\projekat.net\\prodavnica\\prodavnica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|solutionrelative:prodavnica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,63 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Views\\Store\\Details.cshtml",
-              "RelativeDocumentMoniker": "Prodavnica\\Views\\Store\\Details.cshtml",
-              "ToolTip": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Views\\Store\\Details.cshtml",
-              "RelativeToolTip": "Prodavnica\\Views\\Store\\Details.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T15:58:18.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StoreController.cs",
-              "DocumentMoniker": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Controllers\\StoreController.cs",
-              "RelativeDocumentMoniker": "Prodavnica\\Controllers\\StoreController.cs",
-              "ToolTip": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Controllers\\StoreController.cs",
-              "RelativeToolTip": "Prodavnica\\Controllers\\StoreController.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAYwFcAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T15:55:33.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Views\\Store\\Index.cshtml",
-              "RelativeDocumentMoniker": "Prodavnica\\Views\\Store\\Index.cshtml",
-              "ToolTip": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Views\\Store\\Index.cshtml",
-              "RelativeToolTip": "Prodavnica\\Views\\Store\\Index.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAADwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T15:54:55.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Prodavnica\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Prodavnica\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACsAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T15:51:15.743Z",
-              "EditorCaption": ""
             }
           ]
         }

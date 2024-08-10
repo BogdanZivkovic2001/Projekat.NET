@@ -135,3 +135,9 @@ D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\obj\Debug\net8.0\refint\Prodavnica.
 D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\obj\Debug\net8.0\Prodavnica.pdb
 D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\obj\Debug\net8.0\Prodavnica.genruntimeconfig.cache
 D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\obj\Debug\net8.0\ref\Prodavnica.dll
+D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

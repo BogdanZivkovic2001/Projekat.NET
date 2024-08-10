@@ -1,4 +1,6 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Prodavnica.Models;
 using Prodavnica.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +13,16 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
     options.UseSqlServer(connectionString);
 });
+
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>(
+    options =>
+    {
+        options.Password.RequiredLength = 6;
+        options.Password.RequireNonAlphanumeric = false;
+        options.Password.RequireUppercase = false;
+        options.Password.RequireLowercase = false;
+    })
+    .AddEntityFrameworkStores<ApplicationDbContext>();
 
 var app = builder.Build();
 
@@ -33,4 +45,15 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.Run();
+//Kreiranje uloga i kreiranje prvog admin korisnika ako vec ne postoji
+using (var scope = app.Services.CreateScope())
+{
+    var userMenager = scope.ServiceProvider.GetService(typeof(UserManager<ApplicationUser>))
+        as UserManager<ApplicationUser>;
+    var roleMenager = scope.ServiceProvider.GetService(typeof(RoleManager<IdentityRole>))
+        as RoleManager<IdentityRole>;
+
+    await DatabaseInitializer.SeedDataAsync(userMenager, roleMenager);
+}
+
+    app.Run();

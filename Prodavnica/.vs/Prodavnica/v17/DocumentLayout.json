@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\GitHub\\Projekat.NET\\Prodavnica\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|d:\\github\\projekat.net\\prodavnica\\prodavnica\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|solutionrelative:prodavnica\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|d:\\github\\projekat.net\\prodavnica\\prodavnica\\views\\account\\password.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|solutionrelative:prodavnica\\views\\account\\password.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|d:\\github\\projekat.net\\prodavnica\\prodavnica\\models\\passworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|solutionrelative:prodavnica\\models\\passworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PasswordDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Models\\PasswordDto.cs",
+              "RelativeDocumentMoniker": "Prodavnica\\Models\\PasswordDto.cs",
+              "ToolTip": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Models\\PasswordDto.cs",
+              "RelativeToolTip": "Prodavnica\\Models\\PasswordDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:27:46.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Password.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Views\\Account\\Password.cshtml",
+              "RelativeDocumentMoniker": "Prodavnica\\Views\\Account\\Password.cshtml",
+              "ToolTip": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Views\\Account\\Password.cshtml",
+              "RelativeToolTip": "Prodavnica\\Views\\Account\\Password.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T11:26:46.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Prodavnica\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Prodavnica\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAALkAAAAAAAAAAAAqwM0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:21:48.114Z",
+              "EditorCaption": ""
             }
           ]
         }

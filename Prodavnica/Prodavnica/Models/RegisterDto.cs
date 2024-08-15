@@ -16,7 +16,7 @@ namespace Prodavnica.Models
         [Phone(ErrorMessage = "The format of Phone Number is not valid"), MaxLength(20)]
         public string? PhoneNumber { get; set; }
 
-        [Required, MaxLength(100)]
+        [Required, MaxLength(200)]
         public string Address { get; set; } = "";
 
         [Required, MaxLength(100)]

@@ -122,14 +122,70 @@ namespace Prodavnica.Controllers
         }
 
         [Authorize]
-        public IActionResult Profile()
+        public async Task<IActionResult> Profile()
         {
-            return View();
+            var appUser = await userManager.GetUserAsync(User);
+            if (appUser == null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            var profileDto = new ProfileDto()
+            {
+                FirstName = appUser.FirstName,
+                LastName = appUser.LastName,
+                Email = appUser.Email ?? "",
+                PhoneNumber = appUser.PhoneNumber,
+                Address = appUser.Address,
+            };
+
+            return View(profileDto);
+        }
+
+        [Authorize]
+        [HttpPost]
+        public async Task<IActionResult> Profile(ProfileDto profileDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                ViewBag.ErrorMessage = "Please fill all the required fields with valid values";
+                return View(profileDto);
+            }
+
+            //Trenutni korisnik
+            var appUser = await userManager.GetUserAsync(User);
+            if (appUser == null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            //Cuvanje izmenjenih podataka
+            appUser.FirstName = profileDto.FirstName;
+            appUser.LastName = profileDto.LastName;
+            appUser.UserName = profileDto.Email;
+            appUser.Email = profileDto.Email;
+            appUser.PhoneNumber = profileDto.PhoneNumber;
+            appUser.Address = profileDto.Address;
+
+            var result = await userManager.UpdateAsync(appUser);
+
+            if (result.Succeeded)
+            {
+                ViewBag.SuccessMessage = "Profile updated successfully";
+            }
+            else
+            {
+                ViewBag.ErrorMessage = "Unable to update profile: " + result.Errors.First().Description;
+            }
+
+            return View(profileDto);
         }
 
         public IActionResult AccessDenied()
         {
             return RedirectToAction("Index", "Home");
         }
+
+
     }
 }

@@ -2,6 +2,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Prodavnica.Models;
 using Prodavnica.Services;
+using sib_api_v3_sdk.Client;
+using sib_api_v3_sdk.Api;
+using sib_api_v3_sdk.Model;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,7 +25,10 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(
         options.Password.RequireUppercase = false;
         options.Password.RequireLowercase = false;
     })
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
+
+Configuration.Default.ApiKey.Add("api-key", builder.Configuration["BrevoSettings:ApiKey"]);
 
 var app = builder.Build();
 

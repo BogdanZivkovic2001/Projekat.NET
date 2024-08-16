@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Prodavnica.Models;
+using Prodavnica.Services;
+using System.ComponentModel.DataAnnotations;
 using System.Runtime.InteropServices;
 
 namespace Prodavnica.Controllers
@@ -10,12 +12,14 @@ namespace Prodavnica.Controllers
     {
         private readonly UserManager<ApplicationUser> userManager;
         private readonly SignInManager<ApplicationUser> signInManager;
+        private readonly IConfiguration configuration;
 
         public AccountController(UserManager<ApplicationUser> userManager,
-            SignInManager<ApplicationUser> signInManager)
+            SignInManager<ApplicationUser> signInManager, IConfiguration configuration)
         {
             this.userManager = userManager;
             this.signInManager = signInManager;
+            this.configuration = configuration;
         }
 
         public IActionResult Register()
@@ -223,6 +227,118 @@ namespace Prodavnica.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+        public IActionResult ForgotPassword()
+        {
+            if (signInManager.IsSignedIn(User))
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ForgotPassword([Required, EmailAddress] string email)
+        {
+            if (signInManager.IsSignedIn(User))
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            ViewBag.Email = email;
+
+            if (!ModelState.IsValid)
+            {
+                ViewBag.EmailError = ModelState["email"]?.Errors.First().ErrorMessage ?? "Invalid Email Address";
+                return View();
+            }
+
+            var user = await userManager.FindByEmailAsync(email);
+
+            if (user != null)
+            {
+                //generisanje tokena za resetovanje lozinke
+                var token = await userManager.GeneratePasswordResetTokenAsync(user);
+                string resetUrl = Url.ActionLink("ResetPassword", "Account", new { token }) ?? "URL Error";
+
+                //slanje ura-a putem email-a
+                string senderName = configuration["BrevoSettings:SenderName"] ?? "";
+                string senderEmail = configuration["BrevoSettings:SenderEmail"] ?? "";
+                string username = user.FirstName + " " + user.LastName;
+                string subject = "Password Reset";
+                string message = "Dear " + username + ",\n\n" +
+                                 "You can reset your password using the following link:\n\n" +
+                                 resetUrl + "\n\n" +
+                                 "Best Regards";
+
+                //Slanje mejla
+                //EmailSender.SendEmail(senderName, senderEmail, username, email, subject, message);
+
+                Console.WriteLine(message);
+
+                //Console.WriteLine("Password Reset Link: " + resetUrl);
+            }
+
+            ViewBag.SuccessMessage = "Please check your Email account and click on the Password Reset link!";
+
+            return View();
+        }
+
+        public IActionResult ResetPassword(string? token)
+        {
+            if (signInManager.IsSignedIn(User))
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            if (token == null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(string? token, PasswordResetDto model)
+        {
+            if (signInManager.IsSignedIn(User))
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            if (token == null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            var user = await userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+            {
+                ViewBag.ErrorMessage = "Token is not valid";
+                return View(model);
+            }
+
+            var result = await userManager.ResetPasswordAsync(user, token, model.Password);
+            if (result.Succeeded)
+            {
+                ViewBag.SuccessMessage = "Pasword reset was succesfull";
+            }
+            else
+            {
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+            }
+
+            return View(model);
+        }
 
     }
 }

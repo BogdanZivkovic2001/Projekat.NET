@@ -141,3 +141,8 @@ D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\bin\Debug\net8.0\Microsoft.AspNetCo
 D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\bin\Debug\net8.0\FubarCoder.RestSharp.Portable.Core.dll
+D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\bin\Debug\net8.0\FubarCoder.RestSharp.Portable.HttpClient.dll
+D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\bin\Debug\net8.0\JsonSubTypes.dll
+D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\GitHub\Projekat.NET\Prodavnica\Prodavnica\bin\Debug\net8.0\sib_api_v3_sdk.dll

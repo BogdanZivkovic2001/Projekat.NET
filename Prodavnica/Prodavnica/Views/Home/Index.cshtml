@@ -40,8 +40,8 @@
                         <h4 class="mb-3">@(product.Price)$</h4>
                         <a class="btn btn-primary btn-sm mb-2" asp-controller="Store"
                             asp-action="Details" asp-route-id="@product.Id" role="button">Detalji</a>
-                        <button type="button" class="btn btn-warning btn-sm mb-2">
-                            Dodaj u korpu <i class="bi bi-cart-4"></i>
+                        <button type="button" class="btn btn-warning btn-sm mb-2" onclick="addToCart(this, @product.Id)">
+                            Add to cart <i class="bi bi-cart-4"></i>
                         </button>
                     </div>
                 </div>

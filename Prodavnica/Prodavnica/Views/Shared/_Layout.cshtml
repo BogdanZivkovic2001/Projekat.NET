@@ -76,6 +76,51 @@
 
             document.getElementById("CartSize").innerHTML = cartSize
         }
+
+        function increase(id) {
+            let cart = getShoppingCart();
+
+            let quantity = cart[id];
+            if (isNaN(quantity)) {
+                //ako nije broj postavljamo na 1
+                cart[id] = 1
+            }
+            else {
+                cart[id] = Number(quantity) + 1;
+            }
+
+            saveCart(cart);
+            location.reload()
+        }
+
+        function decrease(id) {
+            let cart = getShoppingCart();
+
+            let quantity = cart[id];
+            if (isNaN(quantity)) {
+                //izadji ako nije broj
+                return
+            }
+            
+            quantity = Number(quantity)
+
+            if (quantity > 1) {
+                cart[id] = quantity - 1
+                saveCart(cart);
+                location.reload()
+            }
+
+        }
+
+        function remove(id){
+            let cart = getShoppingCart();
+
+            if (cart[id]) {
+                delete cart[id]
+                saveCart(cart)
+                location.reload()
+            }
+        }
     </script>
 
     <header>
@@ -131,6 +176,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" asp-area="" asp-controller="Products" asp-action="Index">Products</a></li>
+                                        <li><a class="dropdown-item" asp-area="" asp-controller="AdminOrders" asp-action="Index">Orders</a></li>
                                         <li><a class="dropdown-item" asp-area="" asp-controller="Users" asp-action="Index">Users</a></li>
                                         <li><a class="dropdown-item" asp-area="" asp-controller="Account" asp-action="Profile">Profile</a></li>
                                         <li><hr class="dropdown-divider"></li>
@@ -147,6 +193,7 @@
                                         @(appUser!.FirstName + " " + appUser!.LastName + " (Client)")
                                     </a>
                                     <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" asp-area="" asp-controller="ClientOrders" asp-action="Index">Orders</a></li>
                                         <li><a class="dropdown-item" asp-area="" asp-controller="Account" asp-action="Profile">Profile</a></li>
                                         <li><hr class="dropdown-divider"></li>
                                         <li><a class="dropdown-item" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a></li>

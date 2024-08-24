@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\GitHub\\Projekat.NET\\Prodavnica\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|d:\\github\\projekat.net\\prodavnica\\prodavnica\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|solutionrelative:prodavnica\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|d:\\github\\projekat.net\\prodavnica\\prodavnica\\services\\carthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|solutionrelative:prodavnica\\services\\carthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|d:\\github\\projekat.net\\prodavnica\\prodavnica\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|solutionrelative:prodavnica\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|d:\\github\\projekat.net\\prodavnica\\prodavnica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|solutionrelative:prodavnica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|d:\\github\\projekat.net\\prodavnica\\prodavnica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B158D297-B11A-4B48-AAF3-20BAD6A66480}|Prodavnica\\Prodavnica.csproj|solutionrelative:prodavnica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,76 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "Prodavnica\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "Prodavnica\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T22:28:37.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Prodavnica\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Prodavnica\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T22:18:30.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "Prodavnica\\Controllers\\CartController.cs",
-              "ToolTip": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Controllers\\CartController.cs",
-              "RelativeToolTip": "Prodavnica\\Controllers\\CartController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T22:11:35.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\appsettings.json",
-              "RelativeDocumentMoniker": "Prodavnica\\appsettings.json",
-              "ToolTip": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\appsettings.json",
-              "RelativeToolTip": "Prodavnica\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-20T22:13:51.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CartHelper.cs",
-              "DocumentMoniker": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Services\\CartHelper.cs",
-              "RelativeDocumentMoniker": "Prodavnica\\Services\\CartHelper.cs",
-              "ToolTip": "D:\\GitHub\\Projekat.NET\\Prodavnica\\Prodavnica\\Services\\CartHelper.cs",
-              "RelativeToolTip": "Prodavnica\\Services\\CartHelper.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAYwDkAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T22:19:13.989Z",
-              "EditorCaption": ""
             }
           ]
         }
